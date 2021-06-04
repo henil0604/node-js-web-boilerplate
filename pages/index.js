@@ -8,8 +8,10 @@ let views = {
 
 
 
+
+
 router.get("/", (req, res) => {
-    res.render(views.index)
+    res.render(views.index);
 })
 
 

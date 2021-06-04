@@ -5,12 +5,9 @@ let Routers = {};
 
 
 
-
-
 router.post("/", (req, res) => {
     res.send("Hello World From API")
-})
-
+});
 
 
 
